@@ -10,7 +10,13 @@ public class Test1 {
 		System.out.println("Developer");
 	}
 
+	public static void printAge() {
+		System.out.println(0);
+	}
+	
 	public static void main(String[] args) {
 		printName();
+		printRole();
+		printAge();
 	}
 }
